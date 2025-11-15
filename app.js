@@ -87,3 +87,4 @@ ENDPOINT_CONFIGS.forEach((config) => {
 });
 
 server.startServer();
+
