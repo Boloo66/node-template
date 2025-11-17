@@ -25,6 +25,9 @@ const ENDPOINT_CONFIGS = [
   {
     path: './endpoints/onboarding/',
   },
+  {
+    path: './endpoints/payment-instructions/',
+  },
 ];
 
 function logEndpointMetaData(endpointConfigs) {
@@ -87,4 +90,3 @@ ENDPOINT_CONFIGS.forEach((config) => {
 });
 
 server.startServer();
-

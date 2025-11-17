@@ -12,7 +12,12 @@
     "test": "set USE_MOCK_MODEL=1 && mocha --recursive --require dotenv/config",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-    "sync-envs": "node sync-env-files"
+    "sync-envs": "node sync-env-files",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "keywords": [],
   "author": "Resilience17",
@@ -55,6 +60,7 @@
     "knex": "^3.1.0",
     "mongoose": "^8.2.0",
     "mysql2": "^3.9.1",
+    "nodemon": "^3.1.11",
     "pino": "^8.19.0",
     "request-ip": "^3.3.0",
     "resend": "^3.2.0",
