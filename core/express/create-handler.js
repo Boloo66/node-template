@@ -14,7 +14,7 @@
 
 /**
  * Object representing the components of a request.
- * @typedef {Object} RequestComponentsYou're using the SSH URL, which only works if the owner added your SSH key to the repo/team.
+ * @typedef {Object} RequestComponents
  * @property {Object} body - Object representing the body of the request.
  * @property {Object} query - Object representing the parsed query string of the request.
  * @property {Object} headers - Object representing the request header.
